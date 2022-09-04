@@ -42,4 +42,4 @@ function simpleArraySum(ar){
     }
     return sum
 }
-console.log(simpleArraySum([1,2,3,4,10,11])
+console.log(simpleArraySum([1,2,3,4,10,11]))
