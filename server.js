@@ -235,5 +235,5 @@ console.log(aVeryBigSum([1000000001,1000000002,1000000003,1000000004,1000000005]
 // Sum across the secondary diagonal: 4 + 5 + 10 = 19
 // Difference: |4 - 19| = 15
 
-// Note: |x| is the absolute value of x
+// Note: |x| is the absolute value of 
 ////////////////////////////////////////////////////////////////////////////////////////////////
