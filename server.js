@@ -236,4 +236,23 @@ console.log(aVeryBigSum([1000000001,1000000002,1000000003,1000000004,1000000005]
 // Difference: |4 - 19| = 15
 
 // Note: |x| is the absolute value of x
+function diagonalDifference(arr) {
+    let n = arr.length; 
+    let leftToRight = 0;
+    let rightToLeft = 0;
+  for(let i=0; i<n; i++){
+     for(let j=0; j<n; j++){
+       // finding the sum of the primary diagonal
+         if(i === j) {
+           leftToRight += arr[i][j];
+         }
+       // finding the sum of the secondary diagonal
+         if(i + j === n - 1){
+            rightToLeft += arr[i][j];
+         }
+      }
+  }
+  return Math.abs(leftToRight - rightToLeft);
+}
+console.log(diagonalDifference(5))
 ////////////////////////////////////////////////////////////////////////////////////////////////
