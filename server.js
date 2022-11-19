@@ -407,4 +407,4 @@ function staircase(n) {
         process.stdout.write("\n")
     }
 }
-console.log(staircase(3))
+console.log(staircase(50))
